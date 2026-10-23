@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Online Job Application Portal</h2>
+    <p>Apply for your dream job!</p>
+    <form>
+        <fieldset> <legend>1. Personal Information</legend>
+            Full Name: <input type="text"  required><br><br>
+            Change Password: <input type="password" name="password" required><br><br>
+            Email: <input type="email"  required><br><br>
+            Mobile Number: <input type="tel" required><br><br>
+            Age: <input type="number"  min="18" max="65" required><br><br>
+            Date of Birth: <input type="date" name="dob" required><br><br>
+            Gender:
+            <input type="radio"  value="male" required> Male
+            <input type="radio" value="female" required> Female<br><br>   
+            Current Address: <textarea  rows="4" cols="50" required></textarea><br><br>
+            profile Photograph: <input type="file" required><br><br>
+            Protfolio: <input type="url">
+        
+        </fieldset>
+
+        <fieldset>
+
+            <legend>2.Educational Background</legend>
+            Highest Qualification: <input type="text"required><br><br>
+            College Name: <input type="text" placeholder="Enter your college name" required><br><br>
+            Graduation month and year: <input type="month"  required><br><br>
+            Preffered Internship Week: <input type="week"  required><br><br>
+            Gaduation Year: <input type="number" min="2000" max="2024" required><br><br>
+            Certificate Completed:
+            <input type="checkbox"> Java
+            <input type="checkbox"> Python
+            <input type="checkbox"> Web Development<br><br>
+            Preffered Interview Date: <input type="date"  required><br><br>
+
+        </fieldset>
+
+
+        <fieldset> <legend>3.Job Preference</legend>
+        Searh Job Role:<input type="search"  placeholder="Enter job role" required></legend><br><br>
+        Select Job Role:<select  required>
+            <option value="" disabled>Select</option>
+            <option >Software Engineer</option>
+            <option >Data Scientist</option>
+            <option >Web Developer</option>
+            <option >Mobile App Developer</option>
+        </select><br><br>
+         Employment Type:
+         <input type="radio">Full-time
+         <input type="radio">Part-time  
+         <input type="radio">Internship<br><br>
+         Expected Monthly Salary: <input type="number"  min="10000" max="100000" required><br><br>
+         Preferred Interview Time: <input type="time"  required><br><br>
+         Preferred Theme Color: <input type ="color"> <br><br>
+         Coding Confidence Level: <input type="range"  min="1" max="10" required><br><br>
+         linkedin Profile: <input type="url" placeholder="Enter your LinkedIn profile URL" required><br><br>
+        
+        </fieldset>
+        <fieldset > <legend> 4.Technical Skills and Experience</legend>
+        Years of Experience: <input type="number"  min="0" max="20" required><br><br>
+        Preferred Technology: <input type="text" placeholder="Enter your preferred technology" required><br><br>
+        Technical Skills: <select multiple><option>HTML</option>
+        <option>CSS </option>
+        <option>JavaScript</option>
+        <option>Python</option></select>
+        Use Ctrl  to select multiple skills
+        upload Resume (Pdf only): <input type="file" accept=".pdf" required><br><br>
+        Upload Certificates: <input type="file"  multiple required><br><br>
+        Why Should we hire you? <textarea name="why_hire" rows="4" cols="50" required></textarea><br><br>
+
+        
+        </fieldset>
+
+        <fieldset> <legend>5.Skill Assesment and Applicaiton Status </legend>
+            HTML Skill Level: <input Type="range" style="accent-color: Green;"><br><br> 
+            Application Completion: <input type ="progress"><br><br>
+            Appliication Status: Ready for Submission
+            <input type="checkbox" required> I confirm that the information provided is correct.<br><br>
+                    </fieldset>
+                    <input type ="submit" value="Submit Application"><input type="reset" value="Reset Form">
+                    <input type="button" Value="Help">
+                    <input type ="button" value="Preview Application">
+                    <hr>
+                    <br><br><br>
+                    <br><br><br>
+
+                    <h2>Additional Examples</h2>
+                    <fieldset> <legend>Search Available Jobs</legend>
+                        <input type="text" placeholder="Enter job title or company" required>
+                        <input type="submit" value="Search">
+                    </fieldset>
+                    <fieldset><legend>Read-Only and Disabled Fields</legend>
+                    Application ID:<input type="text "readonly value="APC1234445"><br><br>
+                    Company:<input type="text" disabled value="Core2Web"><br><br>
+                    <input type="submit" value="Update Profile">
+                    </fieldset>
+                    <hr>
+                </form>
+            </body>
+        </html>
