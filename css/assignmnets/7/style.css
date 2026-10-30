@@ -1,0 +1,39 @@
+body{
+   font-family: "Quicksand", sans-serif;
+}
+h2{
+    color: #0c196b;
+  
+}
+header{
+    text-align: center;
+}
+.pop{
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    color: green;
+
+}
+div{
+    background-color: aqua;
+    height:220px; 
+    width: 600px;
+    border-radius: 15px;
+
+}
+ul{
+    color:rgb(146, 15, 15);
+}
+
+#tip::before{
+        content:"Tip:";
+        color:green
+    }
+
+
+.bott{
+    color:brown;
+    text-align: center;
+}

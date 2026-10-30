@@ -1,0 +1,32 @@
+img{
+    border-radius: 15px;
+
+}
+body{
+    background-color: black;
+    color: white;
+}
+.top{
+    color: yellow;
+    text-align: center;
+}
+.head{
+    color:#E69500;
+}
+.bot{
+    color:rgb(37, 199, 37);
+    background-color: black;
+}
+div{
+    background-color: rgb(52, 50, 50);
+    width: 600px;
+    height: 500px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.Para{
+    background-color: rgb(40, 37, 37);
+    width: 600px;
+    height: 46px;
+}
